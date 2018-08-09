@@ -1,1 +1,1 @@
-# Client
+# Web Mapping Client
