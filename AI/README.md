@@ -6,6 +6,8 @@ A collection of python (v3.7) scripts used to process SAR images.
 * `map_process.py` performs further data filtering, clusterization with k-means, folowwed by fitting of gaussian mixture model on the given tensor (instructions for additional filtering are drown from same `recipe.json`). The trained model is than used to assign label probabilities to each image pixel.
 * `map_vis.py` is a template for a data (clusterization result) post-processing, visualisation and saving procedure.
 
+The scripts could be used on any kind and number of SAR imaging channels but were tested on a composition of multiple Sigma (geo-referenced intensity) and coherence (between two acquisitions) channels. The scripts assume channels to be in linear scale at the input and than perform conversion to logarithmic scale along with filtration at `map_assemble_tensor.py`.
+
 
 ## License
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg?longCache=true&style=for-the-badge)](https://opensource.org/licenses/Apache-2.0)
