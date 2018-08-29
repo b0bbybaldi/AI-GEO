@@ -1,0 +1,18 @@
+{
+    "channels" : {
+	"sigma" : [ "Sigma0_IW1_VV_mst_22Jun2018", "Sigma0_IW1_VV_slv2_04Jul2018"],
+	"sigma_avg" : [ "Sigma0_IW1_VV_mst_22Jun2018", "Sigma0_IW1_VV_slv2_04Jul2018",
+		      "Sigma0_IW1_VH_mst_22Jun2018", "Sigma0_IW1_VH_slv1_04Jul2018"],
+	"sigmaVV" : [ "Sigma0_IW1_VV_mst_22Jun2018", "Sigma0_IW1_VV_slv2_04Jul2018"],
+	"sigmaVH" : [ "Sigma0_IW1_VH_mst_22Jun2018", "Sigma0_IW1_VH_slv1_04Jul2018"],
+	"coh" : [ "coh_IW1_VV_04Jul2018_22Jun2018_slv5_04Jul2018" ],
+	"coh_avg" : [ "coh_IW1_VV_04Jul2018_22Jun2018_slv5_04Jul2018", "coh_IW1_VH_04Jul2018_22Jun2018_slv4_04Jul2018"],
+	"cohVV" : [ "coh_IW1_VV_04Jul2018_22Jun2018_slv5_04Jul2018" ],
+	"cohVH" : [ "coh_IW1_VH_04Jul2018_22Jun2018_slv4_04Jul2018" ]
+    },
+    "zone" : [[7000, 7000], [13000, 13000]],
+    "products" : {"sigma_avg" : [7, 0.17], "coh_avg": [20, 0.25]},
+    "learn_channels" : [0, 1],
+    "learn_gauss" : 3,
+    "predict_gauss" : 3
+}
