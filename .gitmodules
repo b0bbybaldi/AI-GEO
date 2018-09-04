@@ -1,0 +1,3 @@
+[submodule "server/cog"]
+	path = server/cog
+	url = https://github.com/geobeyond/cog
